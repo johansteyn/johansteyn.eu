@@ -1,0 +1,59 @@
+a:link    {color:#808; font-weight:bold; text-decoration:none;}
+a:visited {color:#868; font-weight:bold; text-decoration:none;}
+a:hover, a:active {color:#F00;}
+/* Need to specify clear property to prevent floating elements from overlapping */
+h1 {color:#310; font-size:20pt; font-family:sans-serif; margin-top:0px;  margin-bottom:0px; text-align:center; clear:both;}
+h2 {color:#310; font-size:16pt; font-family:sans-serif; margin-top:20px; margin-bottom:8px; text-align:center; padding-left:4px; background:#DDB; clear:both;}
+h3 {color:#310; font-size:14pt; font-family:sans-serif; margin-top:20px; margin-bottom:8px; clear:both;}
+h4 {color:#310; font-size:12pt; font-family:sans-serif; margin-top:20px; margin-bottom:8px; clear:both;}
+h5 {color:#310; font-size:10pt; font-family:sans-serif; margin-top:20px; margin-bottom:8px; clear:both;}
+h6 {color:#310; font-size:8pt;  font-family:sans-serif; margin-top:20px; margin-bottom:8px; clear:both;}
+body, table {color:#031; font-size:12pt; font-family:sans-serif;}
+body {background:#FFD; padding-left:12%; padding-right:12%; text-align:justify;}
+p {margin-top:12; margin-bottom:8;}
+table {background:#FFE; border:1px solid #DDB; margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0; border-collapse:separate; border-spacing:0 0; caption-side:bottom;}
+thead {background:#EEC; color:#310;}
+tfoot {background:#EEC; color:#310; font-weight:lighter; font-size:80%;}
+caption {color:#310; font-style:italic; font-weight:lighter; font-size:80%; vertical-align:bottom;}
+th, td {padding-left:8; padding-right:8;}
+th {background:#EEC;}
+code, pre {font-size:8pt; font-family:monospace;}
+code {color:#310;}
+fieldset {background: #EEF0DD; border:1px solid #CDB; padding:0px 0px 4px 4px;}
+ul, ol {padding-left:16; margin-top:8; margin-bottom:8;}
+dl {margin-top:8; margin-bottom:8;}
+dt {color:#310; font-weight:bold;}
+dd {margin-left:16;}
+img {border-color:#FFD;} /* Need this to prevent link border */
+blockquote {color:#310; background:#FFE; font-family:monospace; font-style:italic; margin:4; padding:4; border:1px dashed #DDB;}
+blockquote {quotes:"\201C" "\201D";}
+blockquote {display:inline-block;}
+blockquote:before {content:open-quote; font-weight:bold;}
+blockquote:after {content:close-quote; font-weight:bold;}
+blockquote.left {width:25%; float:left;}
+blockquote.right {width:25%; float:right;}
+table.center {margin-left:auto; margin-right:auto;}
+table.transparent {background:#FFD; border:none;} /* Used by tables containing images on penguincafe */
+.block {background:#FFE; padding:8; border: 1px solid #DDB;} 
+.note {color:#310; border:none; padding:0; margin:0; font-style:italic; font-weight:lighter; font-size:80%; vertical-align:top;}
+.note:before {content:"Note: "; font-weight:bold;}
+.todo {color:#310; border:none; padding:0; margin:0; font-style:italic; font-weight:lighter; font-size:80%; vertical-align:top;}
+.todo:before {content:"TODO: "; font-weight:bold; color:#000; background:#FF0;}
+.compact {border:none; padding:0 0 0 0;}
+.terminal  {color:#FFF; background:#000; font-family:monospace; font-size:8pt; white-space:pre; border:2px inset #DDB; padding-left:4pt; padding-right:4pt; padding-top:2pt; padding-bottom:2pt;}
+.file      {color:#000; background:#FFE; font-family:monospace; font-size:8pt; white-space:pre; border:1px ridge #DDB; padding-left:4pt; padding-right:4pt; padding-top:2pt; padding-bottom:2pt;}
+.textfield {color:#000; background:#FFE; font-family:monospace; font-size:8pt; white-space:pre; border:1px ridge #DDB; padding-left:2px; padding-right:2px; padding-top:0px; padding-bottom:0px;}
+.highlight-red {color:#000; background:#FCC;}
+.highlight-green {color:#000; background:#CFC;}
+.highlight-blue {color:#000; background:#CCF;}
+.highlight-yellow {color:#000; background:#FFA;}
+.highlight-magenta {color:#000; background:#FAF;}
+.highlight-cyan {color:#000; background:#AFF;}
+.highlight-grey {color:#000; background:#DDD;}
+.underline {text-decoration:underline}
+.overline {text-decoration:overline}
+.strike {text-decoration:line-through}
+.uppercase {text-transform:uppercase}
+.lowercase {text-transform:lowercase}
+.capitalize {text-transform:capitalize}
+
