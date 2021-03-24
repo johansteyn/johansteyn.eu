@@ -10,7 +10,7 @@ h5 {color:#310; font-size:10pt; font-family:sans-serif; margin-top:20px; margin-
 h6 {color:#310; font-size:8pt;  font-family:sans-serif; margin-top:20px; margin-bottom:8px; clear:both;}
 body, table {color:#031; font-size:12pt; font-family:sans-serif;}
 body {background:#FFD; padding-left:12%; padding-right:12%; text-align:justify;}
-p {margin-top:12; margin-bottom:8;}
+p {margin-top:12; margin-bottom:8; text-align:justify;}
 table {background:#FFE; border:1px solid #DDB; margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0; border-collapse:separate; border-spacing:0 0; caption-side:bottom;}
 thead {background:#EEC; color:#310;}
 tfoot {background:#EEC; color:#310; font-weight:lighter; font-size:80%;}
@@ -37,6 +37,8 @@ table.transparent {background:#FFD; border:none;} /* Used by tables containing i
 .block {background:#FFE; padding:8; border: 1px solid #DDB;} 
 .note {color:#310; border:none; padding:0; margin:0; font-style:italic; font-weight:lighter; font-size:80%; vertical-align:top;}
 .note:before {content:"Note: "; font-weight:bold;}
+.anthony {color:#310; border:none; padding:0; margin:0; font-style:italic; font-weight:lighter; font-size:80%; vertical-align:top;}
+.anthony:before {content:"Anthony:  "; font-weight:bold;}
 .todo {color:#310; border:none; padding:0; margin:0; font-style:italic; font-weight:lighter; font-size:80%; vertical-align:top;}
 .todo:before {content:"TODO: "; font-weight:bold; color:#000; background:#FF0;}
 .compact {border:none; padding:0 0 0 0;}
@@ -56,4 +58,24 @@ table.transparent {background:#FFD; border:none;} /* Used by tables containing i
 .uppercase {text-transform:uppercase}
 .lowercase {text-transform:lowercase}
 .capitalize {text-transform:capitalize}
+
+.bar {
+	height: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: inline-block;
+	position: relative;
+	background-color: DarkGray;
+}
+.red {background-color: DarkRed;}
+.green {background-color: DarkGreen;}
+.yellow {background-color: DarkOrange;}
+.blue {background-color: DarkSlateBlue;}
+.gray {background-color: Gray;}
+.text {font-family: Courier New; font-size: 12; font-weight: bold; vertical-align: middle;}
+.l {text-align: left;}
+.c {text-align: center;}
+.r {text-align: right;}
 
